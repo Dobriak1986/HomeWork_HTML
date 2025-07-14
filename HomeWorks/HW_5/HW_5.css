@@ -1,0 +1,20 @@
+body {
+    background-image:  url("https://preview.redd.it/giving-batman-1989-a-second-chance-what-should-i-expect-v0-8rq23eugujvd1.jpeg?width=320&crop=smart&auto=webp&s=026685cfee48c4e6e8504ab7cf481da72494bc91");
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+h1, h2, p {
+    color: darkgray;
+}
+img {
+    width: 500px;
+    margin-block: 50px;
+
+}
+span {
+    margin: 100px;
+}
+p{
+    font-size: 50px;
+}

@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    height: 80vh;
+}
+nav{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+div{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+nav ul a{
+    color: black;
+}
+#Переваги{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#Фінанси{
+    background-color: green;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:  center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+#Навчання{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+
+}
+p{
+    font-size: 30px;
+}

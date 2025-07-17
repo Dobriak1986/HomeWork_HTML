@@ -6,6 +6,9 @@
     align-items: center;
     flex-wrap:  wrap;
 }
+.month div:hover{
+    transform: scale(1.2);
+}
 .month div{
     width: 200px;
     height: 200px;

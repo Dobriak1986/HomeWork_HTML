@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.plus{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:  column;
+    height: 50vh;
+
+}
+.minus{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:  column;
+    height: 50vh;
+}
+h1 {
+    margin: 40px;
+    font-size: 50px;
+}
+p {
+    margin: 40px;
+    font-size: 25px;
+}

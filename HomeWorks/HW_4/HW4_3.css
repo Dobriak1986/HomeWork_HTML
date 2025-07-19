@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+header{
+    height: 5vh;
+    background: #D9D9D9;
+}
+/* --------------------------------H----------------*/
+main{
+    display: flex;
+}
+.left{
+    height: 73vh;
+    width: 54vw;
+    background: #A4A4A4;
+}
+.right1{
+    height: 36.5vh;
+    width: 46vw;
+    background: #7F7A7A;
+}
+.right2{
+    height: 36.5vh;
+    width: 46vw;
+    background: #615050;
+}
+/*--------------------------------main---------------*/
+
+footer{
+    height: 22vh;
+}
+.footer1{
+    height: 10vh;
+    background: #D9D9D9;
+}
+.footer2{
+    height: 12vh;
+    background: #AFA9A9;
+}

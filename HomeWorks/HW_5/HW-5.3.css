@@ -1,0 +1,56 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: basket 25s  infinite alternate;
+}
+@keyframes basket {
+    from{
+        transform: translate(-50vw, 0);
+    }
+    1%{
+        transform: translate(-49vw,-3vh);
+    }
+    5%{
+        transform: translate(-45vw, -20vh);
+    }
+    10%{
+        transform: translate(-40vw, -30vh);
+    }
+    15%{
+        transform: translate(-35vw, -20vh);
+    }
+    20%{
+        transform: translate(-30vw, 0vh);
+    }
+    30%{
+        transform: translate(-20vw, -30vh);
+    }
+    40%{
+        transform: translate(-10vw, 0vh);
+    }
+    50%{
+        transform: translate(0vw, -30vh);
+    }
+    60%{
+        transform: translate(10vw, 0vh);
+    }
+    70%{
+        transform: translate(20vw, -30vh);
+    }
+    80%{
+        transform: translate(30vw, 0vh);
+    }
+    90%{
+        transform: translate(40vw, -30vh);
+    }
+    to{
+        transform: translate(50vw, 0);
+    }
+
+}
+
+
+
+

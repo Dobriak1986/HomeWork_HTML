@@ -1,0 +1,37 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kw{
+    height: 250px;
+    width: 150px;
+    border-radius: 60%;
+    border-top: 15px solid red;
+    border-bottom: 15px solid red;
+    animation: kw1 7s infinite alternate;
+}
+@keyframes kw1 {
+    from{
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(-360deg);
+
+    }
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+

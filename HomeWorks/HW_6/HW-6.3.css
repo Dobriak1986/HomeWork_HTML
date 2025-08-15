@@ -1,0 +1,79 @@
+*{
+    margin: 10px;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.instagram{
+    border:  2px solid rgba(128, 128, 128, 0.16);
+    height: 100vh;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+h1{
+    font-size: 120px;
+    font-family: lobster, sans-serif;
+    margin: 0 0 150px 0;
+}
+.instagram input{
+    height: 45px;
+    width: 800px;
+}
+button{
+    height: 45px;
+    width: 800px;
+    background-color: dodgerblue;
+    border-radius: 10px;
+    border: none;
+    margin: 20px 0 40px 0;
+    font-size: 25px;
+    color: white;
+}
+.Facebook{
+    text-decoration: none;
+    font-size: 30px;
+    color: darkblue;
+}
+.Facebook::before{
+    content: "";
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    margin-right: 20px;
+    background-size: cover;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABR0lEQVR4nO3Zz0oDMRAG8DxZUsVbWzaD4gMpggf1Jj36EE5WEGq9eRG01PoA3jwsuNteKtiRVbT+oaVJ102C88Ecw36/3eSSFYLD4XCCTkNjIgEvJeBYgaE6RgKOJZieTNL2SuWVNvt1lVbzRuOe85v3Xh4+EKZlDSi3TUCAC3uAxpH34vA5hTUggNL0dRigKpj1rZQOOgO6vcsoLyY0ndK3BA1Y20zp6vqRFkWFDDjsDBaWDx7QH2YUNaAYPf8qvHN0QxvbZ0ut9w54+Xliid7OxbLrvQNst4xiAPxN6Xl5yidxA/rDLG7A6flD3IDjk/vwANEfYsUAwwBiADCAGKAYYBgg/h1AVny1uBoAc3sAmF7VX8F5NHbtAUna9l4c3qcB2BQuKX8u+C4vwew6lZ8hTKu8n6/zul2Wz9LYdX7zHA6HI+rKKwESa+xUAU4/AAAAAElFTkSuQmCC");
+    margin-bottom: -10px;
+}
+h4{
+    margin: 0 0 30px 0;
+    font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+    color: gray;
+}
+.Password{
+    text-decoration: none;
+    font-size: 25px;
+    color: #26269a;
+    margin-top: 25px;
+}
+.Registration{
+    text-decoration: none;
+    font-size: 25px;
+    border:  2px solid rgba(128, 128, 128, 0.16);
+    height: 100px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+}

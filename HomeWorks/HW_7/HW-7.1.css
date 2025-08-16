@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 132px;
+}
+.Ds3Tool{
+    width: 319px;
+    height: 492px;
+    border: 4px solid #554C4C;
+    background: rgba(217, 217, 217, 0.30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.Ds3ToolLogo{
+    width: 100px;
+    height: 100px;
+    background-color: #FFF;
+    border:  4px solid #554C4C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -55px;
+}
+h2{
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 4px;
+}
+p{
+    width: 211px;
+    color: #000;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.Chessboard{
+    width: 319px;
+    height: 492px;
+    border: 4px solid #65856E;
+    background: rgba(217, 217, 217, 0.30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.ChessboardLogo{
+    width: 100px;
+    height: 100px;
+    background-color: #FFF;
+    border:  4px solid #65856E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -55px;
+}

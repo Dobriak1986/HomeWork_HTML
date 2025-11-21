@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.gridHW3{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 0.5fr 0.5fr 1fr 1fr;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas:
+    "header header"
+    "sec1 as1"
+    "sec2 as1"
+    "sec2 as2"
+    "sec3 as2"
+    "footer footer"
+;
+}
+header{
+    background: #8D8484;
+    grid-area:  header;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    font-size: 45px;
+    color: #000000;
+;
+}
+.Section1{
+    background: #776969;
+    grid-area: sec1;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    font-size: 45px;
+    color: #FFFFFF;
+
+}
+.Section2{
+    background: #643030;
+    grid-area:  sec2;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    font-size: 45px;
+    color: #FFFFFF;
+
+}
+.Section3{
+    background: #441818;
+    grid-area: sec3;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    font-size: 45px;
+    color: #FFFFFF;
+}
+.aside1{
+    background: #937575;
+    grid-area:  as1;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    font-size: 45px;
+    color: #FFFFFF;
+
+}
+.aside2{
+    background: #644C4C;
+    grid-area: as2;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    font-size: 45px;
+    color: #FFFFFF;
+;
+}
+footer{
+    background: #BDBDBD;
+    grid-area:  footer;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    font-size: 45px;
+    color: #000000;
+}
